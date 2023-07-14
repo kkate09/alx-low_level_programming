@@ -1,6 +1,3 @@
-Apologies for the oversight. To ensure the correct output for a 32-bit or 64-bit machine, we need to modify the format specifier used in the `printf` statements. Here's an updated version of the program that handles both cases:
-
-```c
 #include <stdio.h>
 
 int main(void)
@@ -14,5 +11,5 @@ int main(void)
     printf("Size of double: %lu byte(s)\n", sizeof(double));
     printf("Size of long double: %lu byte(s)\n", sizeof(long double));
 
-return 0;
+    return 0;
 }
